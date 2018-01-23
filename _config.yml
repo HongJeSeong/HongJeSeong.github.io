@@ -1,0 +1,29 @@
+# Site settings
+title: HJS
+email: howl78@naver.com
+description: blog page
+baseurl: "/"
+url: "https://hongjeseong.github.io"
+
+author:
+  name     : '홍제성'
+  email    : howl78@naver.com
+  url      : https://hongjeseong.github.io/
+  facebook : https://facebook.com/ghdwptjd
+  twitter  : none
+
+github: https://github.com/HongJeSeong
+disqus_shortname: none
+google_analytics: none
+
+paginate: 5
+comments: true
+paginate_path: "/page/:num"
+
+sass:
+  style: :compressed
+  sass_dir: _sass
+
+# Build settings
+markdown  : kramdown
+permalink : /:title/
