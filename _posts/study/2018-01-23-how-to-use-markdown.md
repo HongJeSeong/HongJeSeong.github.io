@@ -79,13 +79,31 @@ html의 ```<ol> <ul>``` 기능을 한다.
     + 리스트3
 
 - 리스트1
-  - 리스트2
-    - 리스트3
+- 리스트2
+- 리스트3
 
 ## 단락(Paragraph)
 html ```<p></p>``` 태그로 그냥 텍스트를 작성하면 된다.
 ``` 글 본문입니다 ```
 글 본문입니다
+
+
+## 강조(Emphasis)
+html의 ```<em>``` 의 기능을 한다.
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
+```
+*single asterisks*
+_single underscores_
+**double asterisks**
+__double underscores__
+++underline++
+~~cancelline~~
 
 
 ## 수평선(Horizontal Rules)
@@ -117,3 +135,17 @@ html의 하이퍼링크의 기능을 한다. title생략 가능
 ```
 [example](http://example.com "title")
 클릭하세요 [구글](https://www.google.com "구글")
+
+
+## 이미지(Image)
+
+html의 ```<img src=""/>``` 태그의 기능을 한다.
+링크 또는 로컬의 이미지파일을 연결한다. title은 생략 가능
+
+```
+![alt txt](/path/img.jpg)
+![alt txt](/path/img.jpg "title") 
+
+```
+
+![Github](https://assets-cdn.github.com/images/modules/open_graph/github-octocat.png)
