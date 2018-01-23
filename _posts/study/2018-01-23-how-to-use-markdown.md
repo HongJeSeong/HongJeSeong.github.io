@@ -23,7 +23,7 @@ tag:
 	* 모든 html 마크업을 대신하지 못한다.
 
 ## 헤더(Header)
-html의	<h1>~<h6> 헤더와 같다.
+html의	``` <h1>~<h6>``` 헤더와 같다.
 ```
 # This is a H1
 ## This is a H2
@@ -38,6 +38,5 @@ html의	<h1>~<h6> 헤더와 같다.
 #### This is a H4
 ##### This is a H5
 ###### This is a H6
-####### This is a 7.
 
 
