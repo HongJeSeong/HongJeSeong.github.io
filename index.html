@@ -3,11 +3,11 @@ layout: default
 title: Home
 slug: home
 ---
-
+<p>최신글</p>
 <div class="post-list">
   {% for post in paginator.posts %}
     {% include post.html %}
   {% endfor %}
-
+  
   {% include pagination.html %}
 </div>
