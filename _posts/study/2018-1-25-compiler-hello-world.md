@@ -56,7 +56,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 ### Requirements
 
-> 아래 필요한 것을 ```apt-get install```  설치
+아래 필요한 것을 ```apt-get install```  설치
 ----------------------------------------------
 
 
@@ -77,10 +77,10 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 ### Installation
 
-> - 다운로드한 cbc-1.0.tar.gz를  /usr/local/에 저장
-> - ```cd /usr/local/``` 경로 이동
-> - ```tar xzvf cbc-1.0.tar.gz``` 를 하여 압축 풀기
-> - ```cd cbc-1.0``` 경로이동
+- 다운로드한 cbc-1.0.tar.gz를  /usr/local/에 저장
+- ```cd /usr/local/``` 경로 이동
+- ```tar xzvf cbc-1.0.tar.gz``` 를 하여 압축 풀기
+- ```cd cbc-1.0``` 경로이동
 
 ----------------------------------------------
 
@@ -96,7 +96,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 
 ### Build
-> 나는 건들지 않았다.
+나는 건들지 않았다.
 ----------------------------------------------
 
 **Edit build.properties for your environment and invoke make:**
@@ -107,8 +107,8 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 ### Test
 
-> ```make test```를 진행한다.
-> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG)  실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..  그냥 넘어가지만 나중에 걸림돌이 될까 걱정됨  
+```make test```를 진행한다.
+![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG)  실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..  그냥 넘어가지만 나중에 걸림돌이 될까 걱정됨  
   
 ----------------------------------------------
 
@@ -122,7 +122,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 ### Usage
 
-> ```cbc --help``` 로 cbc에 관한 도움 글이 출력 된다면 cbc 명령어 호출에는 성공
+```cbc --help``` 로 cbc에 관한 도움 글이 출력 된다면 cbc 명령어 호출에는 성공
 
 
     $ cbc --help
