@@ -21,7 +21,7 @@ _결국 성공하였다._
 - 환경 : 우분투~~16.04(64bit)~~, 10.04(~~64bit~~, **32bit**), **11.10(32bit)** 에서 성공
 - [한빛 미디어 자료실](http://dw.hanbit.co.kr/exam/1768/) 에서 cbc-1.0.tar.gz 다운로드
 
-_조사 결과  32비트 환경에서 돌아가는 코드로 되어 있다함._
+_조사 결과  32비트 환경에서 돌아가는 코드._
 
 
  [64비트 환경] (https://github.com/leungwensen/cbc-ubuntu-64bit)
@@ -48,7 +48,7 @@ deb http://security.ubuntu.com/ubuntu 어쩌구~~
 이들 주소를 http://old-releases.ubuntu.com/ubuntu 어쩌구~~
 
 kr 우분투를 old-release 우분투로 바꾸기.
-
+역시security 우분투도 바꾸자
 
 변환, 저장 후에 **apt-get update** 를 해준다.
 
