@@ -11,7 +11,7 @@ tag:
 
 # 환경 설정과 hello world 찍기
 
-![컴파일러 책(나뭇잎)](https://github.com/HongJeSeong/compiler/blob/master/image/bookCover.PNG)
+![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)
 2010년에 한글 번역본으로 나온 책이다.
 지식도 없고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.
 _결국 성공하였다._
@@ -109,7 +109,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ### Test
 
 > ```make test```를 진행한다.
-> ![make test](https://github.com/HongJeSeong/compiler/blob/master/image/makeTest.PNG) 실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..
+> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG) 실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..
 ----------------------------------------------
 
     Invoke "make test":
@@ -135,19 +135,19 @@ cbc 명령어를 사용하게 되었으니 ```test``` 폴어데 있는 ```hello.
 
 그러나 에러를 뱉어버림..;
 
-![error1](https://github.com/HongJeSeong/compiler/blob/master/image/compileError.PNG)
+![error1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/compileError.PNG)
 - /usr/lib/crt* 들이 없다고 하는 것을 확인
   - 그러나 /usr/lib/i386-linux-gnu/ 에 잘 있는 것을 확인
-  - ![find](https://github.com/HongJeSeong/compiler/blob/master/image/findCrt.PNG)
+  - ![find](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/findCrt.PNG)
   - 링킹으로 crt* 들을 연결해도 안됨.
   - **그냥 ```mv```로 파일 들을 ```/usr/lib/``` 으로 옮겨주니 인식함**
 
 ## 3. 결과
 
 ```cbc test/hello.cb``` 를 하니 hello.o hello.s hello를 생성
-![res1](https://github.com/HongJeSeong/compiler/blob/master/image/res1.PNG)
+![res1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res1.PNG)
 
 ```./hello``` 를 실행하면 
-![res2](https://github.com/HongJeSeong/compiler/blob/master/image/res2.PNG)
+![res2](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res2.PNG)
     Hello, World! 출력
 
