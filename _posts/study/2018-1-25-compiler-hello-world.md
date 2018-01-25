@@ -11,7 +11,7 @@ tag:
 
 # 환경 설정과 hello world 찍기
 
-![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)
+![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)  
 2010년에 한글 번역본으로 나온 책이다.  
 참고할 자료가 많지 않고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.  
 _결국 성공하였다._  
@@ -23,7 +23,6 @@ _결국 성공하였다._
 
 _조사 결과  32비트 환경에서 돌아가는 코드로 되어 있다함._
 
-> 하하
 
  [64비트 환경] (https://github.com/leungwensen/cbc-ubuntu-64bit)
 
@@ -109,7 +108,8 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ### Test
 
 > ```make test```를 진행한다.
-> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG) 실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..  그냥 넘어가지만 나중에 걸림돌이 될까 걱정됨  
+> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG)  실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..  그냥 넘어가지만 나중에 걸림돌이 될까 걱정됨  
+  
 ----------------------------------------------
 
     Invoke "make test":
@@ -123,7 +123,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ### Usage
 
 > ```cbc --help``` 로 cbc에 관한 도움 글이 출력 된다면 cbc 명령어 호출에는 성공
------
+
 
     $ cbc --help
 
@@ -133,9 +133,9 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 cbc 명령어를 사용하게 되었으니 ```test``` 폴어데 있는 ```hello.cb```를 실행.
 
-그러나 에러를 뱉어버림..;
+그러나 에러를 뱉어버림..;  
 
-![error1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/compileError.PNG)
+![error1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/compileError.PNG)  
 - /usr/lib/crt* 들이 없다고 하는 것을 확인
   - 그러나 /usr/lib/i386-linux-gnu/ 에 잘 있는 것을 확인
   - ![find](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/findCrt.PNG)
@@ -144,10 +144,10 @@ cbc 명령어를 사용하게 되었으니 ```test``` 폴어데 있는 ```hello.
 
 ## 3. 결과
 
-```cbc test/hello.cb``` 를 하니 hello.o hello.s hello를 생성
-![res1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res1.PNG)
+```cbc test/hello.cb``` 를 하니 hello.o hello.s hello를 생성  
+![res1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res1.PNG)  
 
-```./hello``` 를 실행하면 
-![res2](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res2.PNG)
+```./hello``` 를 실행하면   
+![res2](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res2.PNG)  
     Hello, World! 출력
 
