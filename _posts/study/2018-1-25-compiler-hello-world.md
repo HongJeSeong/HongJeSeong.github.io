@@ -57,6 +57,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ### Requirements
 
 아래 필요한 것을 ```apt-get install```  설치
+
 ----------------------------------------------
 
 
@@ -96,7 +97,9 @@ kr 우분투를 old-release 우분투로 바꾸기.
 
 
 ### Build
+
 나는 건들지 않았다.
+
 ----------------------------------------------
 
 **Edit build.properties for your environment and invoke make:**
