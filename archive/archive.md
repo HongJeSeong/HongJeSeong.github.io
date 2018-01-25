@@ -9,7 +9,7 @@ title: Archive
     {% for post in site.categories.archive %}
         <article class="archive-item">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-         {% if post.img == '' %}
+         {% if post.image != '' %}
            hello test
          {% endif %}
            <span class="post-meta">
