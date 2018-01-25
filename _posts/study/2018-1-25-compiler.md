@@ -5,7 +5,6 @@ date: 2018-01-25 20:48
 category: posts
 comments: false
 tag:
-- Linux
 - Compiler
 ---
 
@@ -58,6 +57,6 @@ Hello.c와 같이 1개의 파일로 한 개의 실행파일을 만들 때는 gcc
 오브젝트 파일을 최종적으로 사용할 수 있게 변환하는 작업
 - 라이브러리를 결합시키는 과정이다.
 
-###빌드 과정
+### 빌드 과정
 ![buildProcess](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/buildProcess.PNG)
 
