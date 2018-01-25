@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "컴파일러 hello world"
-date: 2018-01-25
+date: 2018-01-25 19:48
 category: posts
 comments: false
 tag:
