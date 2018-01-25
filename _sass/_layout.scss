@@ -191,6 +191,11 @@
     font-style: italic;
     color: #9a9a9a;
   }
+img.thumbnail {
+    max-width: 222px;
+    display: inline-block;
+}
+
 
   img {
     max-width: 100%;
