@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "컴파일러란"
-date: 2018-01-25 20:48
+date: 2018-01-25 19:48
 category: posts
 comments: false
 tag:
