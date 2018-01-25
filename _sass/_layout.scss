@@ -198,6 +198,11 @@
   }
 }
 
+img.thumbnail {
+    max-width: 222px;
+    display: inline-block;
+}
+
 .single {
   .post-header {
     margin-bottom: $spacing-unit;

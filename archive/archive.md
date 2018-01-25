@@ -10,7 +10,7 @@ title: Archive
         <article class="archive-item">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
          {% if post.image != '' %}
-           <img src="{{ post.image }}"/>
+           <img class="thumbnail" src="{{ post.image }}"/>
          {% endif %}
            <span class="post-meta">
            <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
