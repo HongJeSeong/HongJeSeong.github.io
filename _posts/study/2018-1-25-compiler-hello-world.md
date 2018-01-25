@@ -1,5 +1,4 @@
----
-layout: post
+yout: post
 title: "컴파일러 hello world"
 date: 2018-01-25
 category: posts
@@ -13,7 +12,7 @@ tag:
 
 ![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)
 2010년에 한글 번역본으로 나온 책이다.
-지식도 없고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.
+지식도 없고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.</br>
 _결국 성공하였다._
 
 
@@ -25,7 +24,7 @@ _조사 결과  32비트 환경에서 돌아가는 코드로 되어 있다함._
 
 
 
-> [64비트 환경] (https://github.com/leungwensen/cbc-ubuntu-64bit)
+ [64비트 환경] (https://github.com/leungwensen/cbc-ubuntu-64bit)
 
 ----------------------------------------------
 * 모든 작업은 **sudo** 권한으로 진행한다
@@ -36,9 +35,9 @@ _조사 결과  32비트 환경에서 돌아가는 코드로 되어 있다함._
 
 ``` vi /ete/apt/source.list ``` 으로  편집기를 연다.
 
-```
-다음은 구버전들의 주소이다
 
+다음은 구버전들의 주소이다
+```
 deb http://kr.archive.ubuntu.com/ubuntu/ lucid 어쩌구~
 deb-src http://kr.archive.ubuntu.com/ubuntu/ 어쩌구~~
 .
