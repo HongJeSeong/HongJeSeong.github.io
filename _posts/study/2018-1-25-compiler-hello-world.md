@@ -136,7 +136,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ## 2. 실행
 
 
-cbc 명령어를 사용하게 되었으니 ```test``` 폴어데 있는 ```hello.cb```를 실행.
+cbc 명령어를 사용하게 되었으니 ```test``` 폴더에 있는 ```hello.cb```를 실행.
 
 그러나 에러를 뱉어버림..;  
 
@@ -150,6 +150,9 @@ cbc 명령어를 사용하게 되었으니 ```test``` 폴어데 있는 ```hello.
 ## 3. 결과
 
 ```cbc test/hello.cb``` 를 하니 hello.o hello.s hello를 생성  
+hello.o = 오브젝트 파일  
+hello.s = 어셈블리 소스코드  
+hello = 실행파일    
 ![res1](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res1.PNG)  
 
 ```./hello``` 를 실행하면   
