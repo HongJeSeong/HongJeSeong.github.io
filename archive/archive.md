@@ -9,7 +9,9 @@ title: Archive
     {% for post in site.categories.archive %}
         <article class="archive-item">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-         {% include post_tags.html %}
+         {% if post.img == '' %}
+           hello test
+         {% endif %}
            <span class="post-meta">
            <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
            <span class="post-author">by {{ site.author.name }}</span>
