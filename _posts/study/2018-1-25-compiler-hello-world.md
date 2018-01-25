@@ -12,9 +12,9 @@ tag:
 # 환경 설정과 hello world 찍기
 
 ![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)
-2010년에 한글 번역본으로 나온 책이다.
-지식도 없고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.</br>
-_결국 성공하였다._
+2010년에 한글 번역본으로 나온 책이다.  
+참고할 자료가 많지 않고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.  
+_결국 성공하였다._  
 
 
 ## 1. 세팅
@@ -29,8 +29,8 @@ _조사 결과  32비트 환경에서 돌아가는 코드로 되어 있다함._
 
 ----------------------------------------------
 * 모든 작업은 **sudo** 권한으로 진행한다
-* 우분투 버전이 높다면 쉽게  ``` apt-get install ``` 로 아래와 같이 컴파일에 필요한 것들을 설치해준다. 그러나 버전이 낮으면 레포지토리가 기존과 다르거나 , 등록이 안되어 있을 수 있다 .
- (구 버전은 old-release 한곳에 몰아 놨나?)
+* 우분투 버전이 높다면 쉽게  ``` apt-get install ``` 로 아래와 같이 컴파일에 필요한 것들을 설치해준다.   그러나 버전이 낮으면 레포지토리가 기존과 다르거나 , 등록이 안되어 있을 수 있다 .  
+ (구 버전은 old-release 한곳에 몰아 놨나?)  
  따라서 구버전들은 주소들을 ``` old-release ``` 로 바꾼 후 ```apt-get install``` 을 사용해 설치한다.
 
 
@@ -109,7 +109,7 @@ kr 우분투를 old-release 우분투로 바꾸기.
 ### Test
 
 > ```make test```를 진행한다.
-> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG) 실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..
+> ![make test](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/makeTest.PNG) 실행을 하다가 fail.. 아무리 코드를 파해치며 경로를 수정해도 중간에 실패함..  그냥 넘어가지만 나중에 걸림돌이 될까 걱정됨  
 ----------------------------------------------
 
     Invoke "make test":
