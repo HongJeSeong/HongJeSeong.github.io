@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: "컴파일러 hello world"
 date: 2018-01-25
 category: posts
