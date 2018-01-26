@@ -14,9 +14,7 @@ tag:
 
 ![컴파일러 책(나뭇잎)](https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/bookCover.PNG)  
 2010년에 한글 번역본으로 나온 책이다.  
-참고할 자료가 많지 않고, 지금 버전과는 달라 hello world 를 출력하는데 전혀 쉽지가 않았다.  
-_결국 성공하였다._  
-
+<small>참고할 자료가 적다...</small>
 
 ## 1. 세팅
 - 환경 : 우분투~~16.04(64bit)~~, 10.04(~~64bit~~, **32bit**), **11.10(32bit)** 에서 성공  
