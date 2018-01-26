@@ -10,6 +10,10 @@ title: Posts
         <article class="archive-item">
         <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
          {% include post_tags.html %}
+           {% if post.image != '' %}
+              <img class="thumbnail" src="{{ post.image }}"/>
+               </br>
+           {% endif %}
            <span class="post-meta">
            <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
            <span class="post-author">by {{ site.author.name }}</span>

@@ -7,6 +7,9 @@
       <span class="post-author">by {{ site.author.name }}</span>
     </span>
   </header>
+   {% if post.image != '' %}
+           <img class="thumbnail" style="float: right;" src="{{ post.image }}"/>
+   {% endif %}
   <div class="post-content">
     {{ post.content | strip_html | truncatewords: 30 }} <a href="{{ post.url | prepend: site.baseurl }}" class="readmore">더 보기&raquo;</a>
   </div>
