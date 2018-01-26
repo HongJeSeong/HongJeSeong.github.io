@@ -4,6 +4,7 @@ title: "컴파일러 hello world"
 date: 2018-01-25 20:48
 category: posts
 comments: false
+image: "https://raw.githubusercontent.com/HongJeSeong/compiler/master/image/res2.PNG"
 tag:
 - Linux
 - Compiler

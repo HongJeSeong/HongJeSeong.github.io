@@ -12,7 +12,7 @@ title: Projects
           {% include post_tags.html %}
              {% if post.image != '' %}
               <img class="thumbnail" src="{{ post.image }}"/>
-               </br>
+               <br>
              {% endif %}
            <span class="post-meta">
            <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>

@@ -4,6 +4,8 @@ title: "마크다운(markdown) 작성법"
 date: 2018-01-23
 category: posts
 comments: false
+image: "https://hongjeseong.github.io/images/posts/Markdown.png"
+
 tag:
 - markdown
 ---
