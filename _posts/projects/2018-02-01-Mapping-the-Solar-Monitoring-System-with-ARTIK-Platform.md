@@ -22,6 +22,8 @@ tag:
 - IoT에 적합한 통신 방법중 실시간 데이터 전송을 위하여 WebSocket을 사용
 - Artik 053 으로 전력 측정
 - 안드로이드 OS로 모바일 사용
+
+**코드수정 필요**
 ###### monitor.js
 {% highlight js %}
 'use strict';
