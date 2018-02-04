@@ -68,7 +68,8 @@ html은 Hyper Text Markup Language로 웹 페이지를 위한 마크업 언어�
 - 클래스별 로 가장 많이 나온 단어 리스트 : 100개
 ![결과](../../images/projects/R_html_classification/res1.png)
 ![결과](../../images/projects/R_html_classification/res2.png)
-![결과](../../images/projects/R_html_classification/res3.png)
+![결과](../../images/projects/R_html_classification/res3.png)  
+
 ### 모델2
 - 파일에서 최소 10번 이상 나온 단어 리스트 : 50개
 - 클래스별 로 가장 많이 나온 단어 리스트 : 100개
@@ -79,7 +80,9 @@ html은 Hyper Text Markup Language로 웹 페이지를 위한 마크업 언어�
 
 ```
 
-전체적으로 나이브 베이지 기법은 대체적으로 잘 분류하는 듯하였으나, [ABC], [DEF], [GH],[IJX] 와 같은 큰 카테고리 분류는 하지만, 더 하위 카테고리로는 분류를 하지 못한 결과를 보인다.....
-    의사 결정 트리와, 뉴럴 네트워킹은 잘 분류하는 것으로 보인다.
+전체적으로 나이브 베이지 기법은 대체적으로 잘 분류하는 듯..  
+그러나 [ABC], [DEF], [GH],[IJX] 와 같은 큰 카테고리 분류는 하지만,  
+ 더 하위 카테고리로는 분류를 하지 못한 결과를 보인다.....  
+의사 결정 트리와, 뉴럴 네트워킹은 잘 분류하는 것으로 보인다.
 
 ```
