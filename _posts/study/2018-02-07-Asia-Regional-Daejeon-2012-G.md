@@ -10,7 +10,7 @@ tag:
 ---
 # 알고리즘 문제(패턴락)
 ## 백준 8894번 문제, Asia Regional - Daejeon 2012 G번
-
+정답률19%
 
 ## 문제
 Pattern lock security is generally used in Android handsets instead of a password. The pattern lock can be set by joining points on a 3×3 matrix in a chosen order. The points of the matrix are registered in a numbered order starting with 1 in the upper left corner and ending with 9 in the bottom right corner. This pattern must involve at least 4 points to set, cannot be disconnected and each point number can be used at most once. So the pattern of the lock screen in Figure 1(b) would be 2-1-5-3-6-8-4-7-9.
