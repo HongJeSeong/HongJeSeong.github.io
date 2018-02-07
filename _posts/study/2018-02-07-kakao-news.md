@@ -8,7 +8,7 @@ tag:
 - algorithm
 ---
 # 카카오 문제(뉴스 클러스터링)
-### 카카오 신입 공채 1차 코딩 테스트 문제
+### 카카오 신입 공채 1차 코딩 테스트 문제 (난이도: 중)
 
 여러 언론사에서 쏟아지는 뉴스, 특히 속보성 뉴스를 보면 비슷비슷한 제목의 기사가 많아 정작 필요한 기사를 찾기가 어렵다. Daum 뉴스의 개발 업무를 맡게 된 신입사원 튜브는 사용자들이 편리하게 다양한 뉴스를 찾아볼 수 있도록 문제점을 개선하는 업무를 맡게 되었다.
 
@@ -50,7 +50,8 @@ tag:
 | FRANCE | french | 16384 |
 | handshake | shake hands | 65536 |
 | aa1+aa2 | AAAA12 | 43690 |
-| E=M*C^2 | e=m*c^2 | 65536 |
+| E=M*C^2 | e=m*c^2 | 65536 |  
+
 
 ### 문제 해설
 
@@ -66,6 +67,79 @@ _**이 문제의 정답률은 41.84%입니다.**_
 
 ------------------------------------------------------
 
-## 해결 방법
+## 해결 방법  
 
+##### 소스코드
+{% highlight java %}
+package week1;
 
+import java.util.ArrayList;
+
+public class JaccardSimilarity {
+
+	public ArrayList<String> preprocess(String data) {
+		String temp = "";
+		ArrayList<String> stringList = new ArrayList<String>();
+
+		data = data.toUpperCase();// 대문자 변환
+		String[] stringSplit = data.split("");// 쪼개기
+		System.out.println(data);
+		for (int i = 0; i < stringSplit.length - 1; i++) {// 유효한 것만 합치기
+			temp = stringSplit[i].concat(stringSplit[i + 1]);
+			if (validation(temp) == true) {
+				stringList.add(temp);
+			}
+		}
+		return stringList;
+	}
+
+	public boolean validation(String data) { // 유효성검사
+		data = data.replaceAll("[^\uAC00-\uD7A3xfe0-9a-zA-Z\\s]", "");// 특수문자 제거
+		data = data.replaceAll("[0-9]", "");// 숫자제거
+		data = data.replaceAll(" ", "");// 공백제거
+		if (data.length() != 2) { // 두 글자 쌍
+			return false;
+		}
+		return true;
+	}
+
+	public void compare(String data1, String data2) {
+		float intersection = 0, union = 0, result = 0;
+		ArrayList<String> list1 = new ArrayList<String>();
+		ArrayList<String> list2 = new ArrayList<String>();
+		list1 = preprocess(data1);
+		list2 = preprocess(data2);
+		if (list1.size() == 0 && list2.size() == 0) { // 공집합인 경우
+			result = 1 * 65536;
+			System.out.println("유사도 =" + (int) result);
+
+		} else {
+			for (int i = 0; i < list1.size(); i++) {
+				String value = list1.get(i);//성능위해 cast 남발 줄이기...
+				for (int j = 0; j < list2.size(); j++) {
+					if (value.equals(list2.get(j))) {
+						list2.remove(j);
+						intersection++;// 교집합
+						break;
+					}
+				}
+			}
+			union = list1.size() + list2.size();// 합집합
+			result = (intersection / union) * 65536;
+			System.out.println("유사도 =" + (int) result);
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		JaccardSimilarity jaccard = new JaccardSimilarity();
+		jaccard.compare("FRANCE", "french");
+		jaccard.compare("handshake", "shake hands");
+		jaccard.compare("aa1+aa2", "AAAA12");
+		jaccard.compare("e=m*c^2", "E=M*C^2");
+
+	}
+
+}
+
+{% endhighlight %}
