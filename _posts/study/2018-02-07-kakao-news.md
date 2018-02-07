@@ -69,6 +69,8 @@ _**이 문제의 정답률은 41.84%입니다.**_
 
 ## 해결 방법  
 
+예제입력 4개 실행시간 0.004초
+
 ##### 소스코드
 {% highlight java %}
 package week1;
@@ -131,15 +133,15 @@ public class JaccardSimilarity {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		long start = System.currentTimeMillis(); 
 		JaccardSimilarity jaccard = new JaccardSimilarity();
 		jaccard.compare("FRANCE", "french");
 		jaccard.compare("handshake", "shake hands");
 		jaccard.compare("aa1+aa2", "AAAA12");
 		jaccard.compare("e=m*c^2", "E=M*C^2");
-
+		long end = System.currentTimeMillis();
+		System.out.println( "실행시간 : " + ( end - start )/1000.0+ "초"); 
 	}
 
 }
-
 {% endhighlight %}
