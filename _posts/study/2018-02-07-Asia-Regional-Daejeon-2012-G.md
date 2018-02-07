@@ -84,7 +84,7 @@ IMPOSSIBLE
 지나간 패턴대로 버튼마다 서로 연결을 해준다. 연결 된 상태의 버튼들은 서로 갈 수 있는 경로를 확인하여 경로를 정한다.  경로를 정할때는 트리구조를 이용하여 탐색한다.
 ## 소스코드  
 #### Button.java
-{% hilight java %}
+{% highlight java %}
 package 알고리즘;
 
 import java.util.ArrayList;
@@ -127,7 +127,7 @@ public class Button {
 
 {% endhighlight %}
 #### Lock.java
-{% hilight java %}
+{% highlight js %}
 package 알고리즘;
 
 import java.util.ArrayList;
