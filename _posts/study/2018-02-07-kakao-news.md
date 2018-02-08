@@ -50,9 +50,10 @@ tag:
 | FRANCE | french | 16384 |
 | handshake | shake hands | 65536 |
 | aa1+aa2 | AAAA12 | 43690 |
-| E=M*C^2 | e=m*c^2 | 65536 |  
+| E=M*C^2 | e=m*c^2 | 65536 |   
 
 
+<br>
 ### 문제 해설
 
 이 문제는 자카드 유사도를 설명해주고 자카드 유사도를 직접 계산하는 프로그램을 작성하는 문제입니다. 자카드 유사도는 실무에서도 유사한 문서를 판별할 때 주로 쓰이는데요, 몰랐더라도 문제에서 자세히 설명해주기 때문에 이해하는데 어려움은 없었을 거 같습니다. 공식은 매우 간단한데요, 교집합을 합집합으로 나눈 수입니다. 다만, 이 값은 0에서 1 사이의 실수가 되는데, 여기서는 이를 다루기 쉽도록 65536을 곱한 후 소수점 아래를 버리고 정수부만 취하도록 합니다.
@@ -69,8 +70,6 @@ _**이 문제의 정답률은 41.84%입니다.**_
 
 ## 해결 방법  
 
-예제입력 4개 실행시간 0.004초
-
 ##### 소스코드
 {% highlight java %}
 package week1;
@@ -85,7 +84,6 @@ public class JaccardSimilarity {
 
 		data = data.toUpperCase();// 대문자 변환
 		String[] stringSplit = data.split("");// 쪼개기
-		System.out.println(data);
 		for (int i = 0; i < stringSplit.length - 1; i++) {// 유효한 것만 합치기
 			temp = stringSplit[i].concat(stringSplit[i + 1]);
 			if (validation(temp) == true) {
@@ -106,42 +104,44 @@ public class JaccardSimilarity {
 	}
 
 	public void compare(String data1, String data2) {
-		float intersection = 0, union = 0, result = 0;
-		ArrayList<String> list1 = new ArrayList<String>();
-		ArrayList<String> list2 = new ArrayList<String>();
-		list1 = preprocess(data1);
-		list2 = preprocess(data2);
-		if (list1.size() == 0 && list2.size() == 0) { // 공집합인 경우
-			result = 1 * 65536;
-			System.out.println("유사도 =" + (int) result);
-
+		if (!((data1.length() >= 2 && data1.length() <= 1000) && (data2.length() >= 2 && data2.length() <= 1000))) {
+			System.out.println("입력 형식에 맞지 않습니다.");
 		} else {
-			for (int i = 0; i < list1.size(); i++) {
-				String value = list1.get(i);//성능위해 cast 남발 줄이기...
-				for (int j = 0; j < list2.size(); j++) {
-					if (value.equals(list2.get(j))) {
-						list2.remove(j);
-						intersection++;// 교집합
-						break;
+			float intersection = 0, union = 0, result = 0;
+			ArrayList<String> list1 = new ArrayList<String>();
+			ArrayList<String> list2 = new ArrayList<String>();
+			list1 = preprocess(data1);
+			list2 = preprocess(data2);
+			if (list1.size() == 0 && list2.size() == 0) { // 공집합인 경우
+				result = 1 * 65536;
+				System.out.println("유사도 =" + (int) result);
+
+			} else {
+				for (int i = 0; i < list1.size(); i++) {
+					String value = list1.get(i);// 성능위해 cast 남발 줄이기...
+					for (int j = 0; j < list2.size(); j++) {
+						if (value.equals(list2.get(j))) {
+							list2.remove(j);
+							intersection++;// 교집합
+							break;
+						}
 					}
 				}
+				union = list1.size() + list2.size();// 합집합
+				result = (intersection / union) * 65536;
+				System.out.println("유사도 =" + (int) result);
 			}
-			union = list1.size() + list2.size();// 합집합
-			result = (intersection / union) * 65536;
-			System.out.println("유사도 =" + (int) result);
 		}
 	}
 
 	public static void main(String[] args) {
-		long start = System.currentTimeMillis(); 
 		JaccardSimilarity jaccard = new JaccardSimilarity();
 		jaccard.compare("FRANCE", "french");
 		jaccard.compare("handshake", "shake hands");
 		jaccard.compare("aa1+aa2", "AAAA12");
 		jaccard.compare("e=m*c^2", "E=M*C^2");
-		long end = System.currentTimeMillis();
-		System.out.println( "실행시간 : " + ( end - start )/1000.0+ "초"); 
 	}
 
 }
+
 {% endhighlight %}
