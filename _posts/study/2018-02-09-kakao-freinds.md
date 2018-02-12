@@ -57,7 +57,8 @@ TMMTTJ
 | m | n | board | answer |
 | -- | -- | --- | ------ |
 | 4 | 5 | ["CCBDE", "AAADE", "AAABF", "CCBBF"] | 14 |
-| 6 | 6 | ["TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"] | 15 |
+| 6 | 6 | ["TTTANT", "RRFACC", "RRRFCC", "TRRRAA", "TTMMMF", "TMMTTJ"] | 15 |  
+
 
 ### 예제에 대한 설명
 
@@ -69,7 +70,7 @@ TMMTTJ
 게임 요구 사항을 구현해보는 문제입니다. 같은 모양의 카카오프렌즈 블록이 2x2 형태로 4개가 붙어있을 경우 사라지면서 점수를 얻는 게임인데요. 인접한 모든 블록이 사라지는 실제 게임들과 달리 계산을 쉽게 하기 위해 2x2로 제한하고, 사라진 블록 자리에는 새로운 블록이 채워지지 않습니다. 그럼에도 불구하고 인접한 블록을 모두 스캔해야 하는 문제라 짧지 않은 코드가 필요했을 것 같네요. 이번 시험에서 가장 긴 코드가 필요한 문제였습니다. 자바의 경우 무려 80라인이나 필요했네요. 블록 매트릭스를 생성하여 스캔하고 제거해 나가는 작업을 반복하면서 더 이상 제거되지 않을 때 사라진 블록 자리의 수를 계산하면 됩니다.
 
 __이 문제의 정답률은 48.01%입니다.__
-
+[문제출처](http://tech.kakao.com/2017/09/27/kakao-blind-recruitment-round-1/)
 --------------------------------------------
 ## 해결 
 코드의 양은 많지만.. 개인적으로 카카오 5번 자카드 유사도 문제보다는 생각하는게 단순하여 풀기는 쉬웠던 것 같다.  
@@ -78,8 +79,9 @@ __이 문제의 정답률은 48.01%입니다.__
 - 탐색이 끝나면 소문자로 변경된 값을 `-` 로 변경한다. **punch()**
 - 다시 배열의 열을 탐색하며 `-` 가 아닌 값을 행렬 위로 몰아 넣는다. **relocate()**
 ###### 처음 생각했던 행렬 원소 탐색 순서
-![search사진](../../images/posts/algokakao/search.png)
-__행렬을 탐색할 때 어떻게 하면 빨리 탐색할까 생각하며 코딩했지만, 코드를 다 짜고 생각하니 별 의미 없는 방법이었음 __
+![search사진](../../images/posts/algokakao/search.png)  
+
+__행렬을 탐색할 때 어떻게 하면 빨리 탐색할까 생각하며 코딩했지만, 코드를 다 짜고 생각하니 별 의미 없는 방법이었음__
 
 {% highlight java%}
 public class Friends4 {
@@ -138,12 +140,11 @@ public class Friends4 {
 		String temp = "";
 		for (int i = 0; i < n; i++) {
 			for (int j = m - 2; j >= 0; j--) {
-				if (!field[j][i].equals("-") && field[j + 1][i].equals("-")) {
+				if ((!field[j][i].equals("-")) && field[j + 1][i].equals("-")) {
 					temp = field[j][i];
 					field[j][i] = field[j + 1][i];
 					field[j + 1][i] = temp;
-					j = m - 2;
-					continue;
+					j = m - 1;
 				}
 			}
 		}
