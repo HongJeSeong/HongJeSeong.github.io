@@ -4,7 +4,7 @@ title: "카카오 문제(뉴스 클러스터링)"
 date: 2018-02-07 16:34
 category: posts
 comments: false
-image: "../../images/posts/algokakao/jaccard.png"
+image: "../../images/posts/algokakao/jaccard1.png"
 tag:
 - algorithm
 ---
