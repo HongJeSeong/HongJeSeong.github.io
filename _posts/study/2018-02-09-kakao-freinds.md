@@ -78,7 +78,7 @@ __이 문제의 정답률은 48.01%입니다.__
 - 탐색이 끝나면 소문자로 변경된 값을 `-` 로 변경한다. **punch()**
 - 다시 배열의 열을 탐색하며 `-` 가 아닌 값을 행렬 위로 몰아 넣는다. **relocate()**
 ###### 처음 생각했던 행렬 원소 탐색 순서
-![search사진]("../../images/posts/algokakao/search.png")
+![search사진](../../images/posts/algokakao/search.png)
 __행렬을 탐색할 때 어떻게 하면 빨리 탐색할까 생각하며 코딩했지만, 코드를 다 짜고 생각하니 별 의미 없는 방법이었음 __
 
 {% highlight java%}
@@ -190,4 +190,4 @@ public class Friends4 {
 {% endhighlight %}
 
 ## 결과
-![결과]("../../images/posts/algokakao/6res.png")
+![결과](../../images/posts/algokakao/6res.png)
