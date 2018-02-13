@@ -94,25 +94,24 @@ html ```<p></p>``` 태그로 그냥 텍스트를 작성하면 된다.
 ## 강조(Emphasis)
 html의 ```<em>``` 의 기능을 한다.
 ```
-*single asterisks*
-_single underscores_
-**double asterisks**
-__double underscores__
-++underline++
-~~cancelline~~
+_이탤릭_ , *이탤릭*
+__볼드__ **볼드**
+___이탤릭볼드___
+***이탤릭볼드***
+**이렇게 _할수도_**
+~~취소선~~
 ```
-*single asterisks*
+_이탤릭_ , *이탤릭*
 
-_single underscores_
+__볼드__ **볼드**
 
-**double asterisks**
+___이탤릭볼드___
 
-__double underscores__
+***이탤릭볼드***
 
-++underline++
+**이렇게 _할수도_**
 
-~~cancelline~~
-
+~~취소선~~
 
 ## 수평선(Horizontal Rules)
 html의 ```</hr>```  태그의 기능을 한다
