@@ -56,3 +56,5 @@ sudo mv cuda/lib64/* /usr/local/cuda-9.0/lib64
 sudo rm cudnn-9.0-linux-x64-v7.1.tgz
 sudo rm -rf cuda
 ```
+
+설치 후에는 `~/.bashrc` 에서 cuda 경로를 `export` 해주고 `source`로 적용한다.
