@@ -3,6 +3,7 @@ layout: post
 title: "DataBase Team Project"
 date: 2019-01-29 18:20
 category: projects
+image: "../../images/projects/dbProject/page1.JPG"
 comments: false
 tag:
 - DataBase
@@ -27,9 +28,9 @@ tag:
 - 원하는 시간을 선택하여 예약을 할 수 있다
 
 ### DataBase Concept Schema 
-![schema](schema.JPG)<br>
+![schema](../../images/projects/dbProject/schema.JPG)<br>
 ### DataBase E-R Table
-![ertable](ertable.JPG)<br>
+![ertable](../../images/projects/dbProject/ertable.JPG)<br>
 
 
 ### 이미지 데이터를 넣기 위한 프로시져
@@ -39,14 +40,14 @@ tag:
 일련의 쿼리를 마치 하나의 함수처럼 실행하기 위한 쿼리의 집합	
 테이블 칼럼 데이터 타입 = BLOB (binary larger object)
 ```
-![procedure](procedure.JPG)<br>
+![procedure](../../images/projects/dbProject/procedure.JPG)<br>
 
 관리자, 의사, 환자 각 계정마다 홈페이지 기능을 달리 두었음
 ### Web Page Example
-![page](page2.JPG)<br>
-![page](page1.JPG)<br>
-![page](page3.JPG)<br>
+![page](../../images/projects/dbProject/page2.JPG)<br>
+![page](../../images/projects/dbProject/page1.JPG)<br>
+![page](../../images/projects/dbProject/page3.JPG)<br>
 
 ### Mobile Example
-![page](mobile1.JPG)<br>
-![page](mobile2.JPG)<br>
+![page](../../images/projects/dbProject/mobile1.JPG)<br>
+![page](../../images/projects/dbProject/mobile2.JPG)<br>
