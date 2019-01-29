@@ -8,6 +8,7 @@ image: "../../images/projects/R_html_classification/1.png"
 tag:
 - Data Science
 - R
+- project
 ---
 # R 활용한 html 문서 분류 
 
