@@ -11,6 +11,7 @@ tag:
 - Java
 - BlockChain
 - AI
+- project
 ---
 
 # 태양광 에너지 발전량 예측과 Blockchain을 이용한 에너지 거래소 구축 사례
