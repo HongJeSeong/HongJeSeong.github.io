@@ -9,6 +9,7 @@ tag:
 - Linux
 - Java
 - js
+- project
 ---
 
 # 기존 태양광 모니터링 시스템과 ARTIK Cloud 연동 구현 
