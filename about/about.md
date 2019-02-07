@@ -37,6 +37,7 @@ E-mail : <howl78@naver.com> , <hong@selab.hongik.ac.kr>
 
 ---
 
+<!--
 학년/학기|1학년|2학년|3학년|4학년
 ---|---|---|---|---|
 1학기|2.54|2.82|4.39|4.41
@@ -47,3 +48,4 @@ E-mail : <howl78@naver.com> , <hong@selab.hongik.ac.kr>
 **전체:3.70/4.50**
 
 ---
+-->
