@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Monitoring and Control of room conditions"
+title: "방 상태 제어, 모니터링"
 date: 2019-01-31 14:20
 category: projects
 comments: false
@@ -10,8 +10,8 @@ tag:
 - project
 ---
 
-# Monitoring and control of room conditions
-## 
+# 방 상태 제어, 모니터링
+
 ## 2018년 4학년 1학기 모바일 시스템 및 융합 과목 프로젝트
 ```
 - Raspberry Pi
