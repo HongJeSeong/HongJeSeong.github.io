@@ -13,7 +13,7 @@ E-mail : <howl78@naver.com> , <hong@selab.hongik.ac.kr>
 - 소프트웨어융합학과(구 컴퓨터정보통신공학과) 4학년 졸업 (2015년 입학,2019년 졸업)  
 - 전자전산공학과 대학원 재학
 
-[소프트웨어공학 연구실-학부생]-[SELab](http://selab.hongik.ac.kr/)  
+[소프트웨어공학 연구실]-[SELab](http://selab.hongik.ac.kr/)  
 `2016.09.` ~ `2019.01.` 학과 서버관리자 장학생
 
 
@@ -23,9 +23,7 @@ E-mail : <howl78@naver.com> , <hong@selab.hongik.ac.kr>
 
 저자|제목|발행기관|볼륨|페이지|발행일
 ---|---|---|---|---|---|
-Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Young Sik Park,Woo Sung|Good Code Style of Low Power Consumption for ECO Environment of Smart City in 4th Industrial Revolution[Best paper]|ISAAC2019|Vol.38 No.2|19.11.08
-
----
+Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Young Sik Park,Woo Sung|Good Code Style of Low Power Consumption for ECO Environment of Smart City in 4th Industrial Revolution[Best paper]|ISAAC2019|Vol.38 No.2||19.11.08
 
 ---
 
@@ -42,12 +40,20 @@ Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Youn
 
 ---
 
-#### Journal
+#### International Journal
+
+저자|제목|발행기관|볼륨|페이지|발행일
+---|---|---|---|---|---|
+||||
+
+---
+
+#### Domestic Journal
 
 저자|제목|발행기관|볼륨|페이지|발행일
 ---|---|---|---|---|---|
 홍제성, 박지훈, 김영철|발전량 예측 모델 기반의 태양광 모니터링 시스템 고장 예측|ICT Platform Society|Vol.6 No.2|19-25|18.07.02
-홍제성, 김영철|EbXML 과 Adapter 패턴을 이용한 과학기술 지식 인프라 통합 아키텍처 설계 방안|ICT Platform Society|VOL.7 NO.2|10-1519.07.07
+홍제성, 김영철|EbXML 과 Adapter 패턴을 이용한 과학기술 지식 인프라 통합 아키텍처 설계 방안|ICT Platform Society|Vol.7 No.2|10-15|19.07.07
 
 ---
 
