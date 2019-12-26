@@ -44,7 +44,7 @@ Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Youn
 
 저자|제목|발행기관|볼륨|페이지|발행일
 ---|---|---|---|---|---|
-||||
+Je Seong Hong, Bo Kyung Park, Jeil Kwak, R. Young Chul Kim, Hyun Seung Son|Best Practices on Educational Service Platform with AI Approach|IJASC|Vol.8 No.4|40-46|19.12.26
 
 ---
 
