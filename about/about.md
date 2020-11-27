@@ -38,6 +38,7 @@ Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Youn
 홍제성, 박보경, 곽제일, 김영철|CNN 알고리즘 기반의 텍스트 분류를 활용한 교육 프로그램 추천 메커니즘 설계 사례|ICT플랫폼학회|Vol.7|19-21|19.06.21
 홍제성,박보경,곽제일,손현승,김영철|Text-CNN 알고리즘 적용한 교육장터 플랫폼 기반 맞춤형 교육 컨텐츠 추천 메커니즘 개발|한국정보처리학회|Vol.26 No.2|965-967|19.11.01
 홍제성, 박보경, 장우성, 이원영, 정세준, 김영철|Python 코드를 위한 정적 분석기 개발|소프트웨어공학 소사이어티|Vol.22 No.1|126-129|20.02.07
+홍제성, 김영철|코드 복잡도 해결을 위한 Python 정적 분석기 개발|한국정보처리학회,추계학술발표대회 논문집|Vol.27 No.2|729-732|20.11.06
 
 ---
 
@@ -46,6 +47,7 @@ Md Ibrahim Khalil,Jae Hyeoung Cho,Won Young Lee, Hyun-Sik An, Jae Sung Hong,Youn
 저자|제목|발행기관|볼륨|페이지|발행일
 ---|---|---|---|---|---|
 Je Seong Hong, Bo Kyung Park, Jeil Kwak, R. Young Chul Kim, Hyun Seung Son|Best Practices on Educational Service Platform with AI Approach|IJASC|Vol.8 No.4|40-46|19.12.26
+Woo Sung Jang , Je Seong Hong, Jang Hwan Kim , Byung Kook Jeon , and R. Young Chul Kim|Best Practices on Metamodel-Based Photovoltaic Monitoring System with Prediction Method for Photovoltaic Power Generation|Applied Sciences (SCIE)|Vol.10 Issue.14|1-13|2020-07-10	
 
 ---
 
