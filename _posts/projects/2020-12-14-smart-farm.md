@@ -58,7 +58,7 @@ tag:
 ##### 메인 페이지
 ![main](../../images/projects/smart_farm/main.png)
 ##### 상품 등록, 블록 페이지
-![items]../../images/projects/smart_farm/items.png)
+![items](../../images/projects/smart_farm/items.png)
 ##### 식물 생장 정보, 블록 페이지
 ![growth](../../images/projects/smart_farm/growth.png)
 
